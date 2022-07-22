@@ -1,3 +1,3 @@
-# angular-ivy-hq78b7
+# angular
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-hq78b7)
