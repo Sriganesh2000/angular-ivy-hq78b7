@@ -21,3 +21,57 @@ p {
   margin-top: -8px;
   margin-bottom: -8px;
 }
+#format td,
+#format th {
+  border: 0.5px solid rgb(0, 204, 255);
+  padding: 2px;
+  width: 200px;
+  text-align: center;
+}
+table {
+  margin: auto;
+  padding: auto;
+}
+h1,
+p {
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+}
+
+#marrk td,
+#marrk th {
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#marrk tr:hover {
+  background-color: rgb(255, 253, 253);
+}
+
+#marrk th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(24, 23, 23);
+  color: rgb(255, 255, 255);
+}
+#marrk tr:nth-child(odd) {
+  background-color: lightslategray;
+}
+
+button {
+  background-color: rgb(3, 3, 3);
+  color: rgb(255, 255, 255);
+  border-radius: 100px;
+  padding: 5px;
+  float: left 10px;
+  margin-top: 50px;
+  margin-left: 200px;
+  cursor: pointer;
+}
+

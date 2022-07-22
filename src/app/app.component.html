@@ -1,7 +1,21 @@
 <header>
   <h1 class="one">
-    HELLO &nbsp;
-    ANGULAR&nbsp; 14
+    EXAM &nbsp;
+    RESULT
   </h1>
-  <p>Start editing to see some magic happen :)</p>
+  <p>Check your results here</p>
+
+<table id="marrk">
+  <tr>
+    <th *ngFor="let column of headers">
+      {{ column }}
+    </th>
+  </tr>
+  <tr *ngFor="let row of rows">
+    <td *ngFor="let column of headers">
+      {{ row[column] }}
+    </td>
+  </tr>
+</table>
 </header>
+<button>NEXT&rarr;</button>
